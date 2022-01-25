@@ -21,6 +21,8 @@ make
 ./tiup-bench tpch -D bench -H ck_host -P 9004 -U jiyf -p abc --sf=1 cleanup
 ```
 
+9004 is mysql port of clickhouse
+
 ## 说明
 
 在 tiup tpc-h 上进行了一些修改：
